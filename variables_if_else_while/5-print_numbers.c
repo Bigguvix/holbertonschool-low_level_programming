@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - Main Function.
+ *
+ *
+ *
+ * Return: Nothing.
+ */
 int main(void)
 {
 	int numb;
