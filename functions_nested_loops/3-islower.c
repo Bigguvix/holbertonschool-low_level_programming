@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * _islower - Function to know when anumber is lowercaser
+ *
+ * @c - int c.
+ * Return: a.
+ */
 int _islower(int c)
 {
 	int a = 0;
