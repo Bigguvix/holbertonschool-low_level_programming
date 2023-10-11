@@ -3,7 +3,8 @@
 /**
  * _islower - Function to know when anumber is lowercaser
  *
- * @c - int c.
+ * @c: An input character
+ *
  * Return: a.
  */
 int _islower(int c)
