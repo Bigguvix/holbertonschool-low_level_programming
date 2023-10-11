@@ -1,6 +1,12 @@
 #include <stdio.h>
 
-int main (void)
+/**
+ * main - Main Function
+ *
+ *
+ * Return: Nothing.
+ */
+int main(void)
 {
 	char c;
 
