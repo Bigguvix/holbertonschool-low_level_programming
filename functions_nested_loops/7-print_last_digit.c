@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * print_last_digit - Main Function
+ *
+ * @a: Integer output.
+ *
+ * Return: The last digit of a number.
+ */
 int print_last_digit(int a)
 {
 	int ulti;
