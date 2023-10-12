@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * times_table - Main function.
+ *
+ * Return: Nothing.
+ */
 void times_table(void)
 {
 	int a, b;
