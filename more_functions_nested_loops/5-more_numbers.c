@@ -1,16 +1,21 @@
 #include "main.h"
 
+/**
+ * more_numbers - Main function.
+ *
+ * Return: Nothing.
+ */
 void more_numbers(void)
 {
 	int a, b;
-	
-	for (a = 1; a <= 10; ++a)
+
+	for (b = 1; b <= 10; ++b)
 	{
-		for (b = 0; b <= 14; ++b)
+		for (a = 0; a <= 14; ++a)
 		{
 			if (a > 9)
 				putchar((a / 10) + '0');
-			putchar((a % 10)+ '0'); 
+			putchar((a % 10) + '0');
 		}
 		putchar('\n');
 	}
