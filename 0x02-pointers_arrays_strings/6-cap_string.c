@@ -1,3 +1,5 @@
+int operators(char c);
+
 #include "main.h"
 
 /**
