@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * _strspn - Main Function
+ *
+ * @s: string
+ * @accept: string.
+ *
+ * Return: a.
+ */
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int a, b, bool;
@@ -10,7 +18,7 @@ unsigned int _strspn(char *s, char *accept)
 
 		for (b = 0; *(accept + b) != '\0'; ++b)
 		{
-			if(*(s + a) == *(accept + b))
+			if (*(s + a) == *(accept + b))
 			{
 				bool = 0;
 				break;
