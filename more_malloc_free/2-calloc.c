@@ -9,7 +9,7 @@
  *
  * Return: mem
  */
-void _calloc(unsigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *mem;
 	char *a;
