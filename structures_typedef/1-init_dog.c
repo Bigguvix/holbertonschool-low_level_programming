@@ -1,6 +1,6 @@
 #include "dog.h"
 #include <stddef.h>
-
+#include <stdlib.h>
 /**
  * init_dog - Main Function
  *
