@@ -3,8 +3,11 @@
 
 
 /**
+ * struct dog - Struct describing a dog.
  *
- * __STRUCTURE__
+ * @name: Dog name.
+ * @age: Dog age.
+ * @owner: Dog Owner.
  */
 struct dog
 {
