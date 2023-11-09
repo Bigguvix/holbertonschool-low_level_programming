@@ -8,11 +8,11 @@
  * @age: dog age.
  * @owner: dog owner.
  *
- * Return: dogg.
+ * Return: dog.
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *dogg;
+	dog_t *new_dog;
 	char *cpyn, *cpyo;
 	int larn = 0, laro = 0, a;
 
@@ -25,8 +25,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	while (owner[laro])
 		++laro;
 
-	dogg = malloc(sizeof(dog_t));
-	if (dogg == NULL)
+	new_dog = malloc(sizeof(dog_t));
+	if (new_dog == NULL)
 		return (NULL);
 
 	cpyn = malloc(larn + 1);
@@ -43,9 +43,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 		cpyo[a] = owner[a];
 	cpyo[a] = '\0';
 
-	dogg->name = cpyn;
-	dogg->age = age;
-	dogg->owner = cpyo;
+	new_dog->name = cpyn;
+	new_dog->age = age;
+	new_dog->owner = cpyo;
 
-	return (dogg);
+	return (new_dog);
 }
