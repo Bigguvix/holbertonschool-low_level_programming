@@ -34,7 +34,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 		(*op == '%' && num2 == 0))
 			{
 			printf("Error\n");
-			
+
 			exit(100);
 			}
 
