@@ -12,9 +12,9 @@ int sum_dlistint(dlistint_t *head)
 
 	while (head)
 	{
-		sum += head->n;
+		a += head->n;
 		head = head->next;
 	}
 
-	return (sum);
+	return (a);
 }
